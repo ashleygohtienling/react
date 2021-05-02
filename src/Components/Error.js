@@ -14,8 +14,7 @@ const Error = () => {
         <React.Fragment>
             {
 
-            people.map((person)=> { 
-                const {id,name} = person
+            people.map((person)=> { const {id,name} = person
                 return <div key ={id} className= "item"> 
                 <h4> {name}</h4>
                 </div>

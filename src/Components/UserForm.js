@@ -1,13 +1,15 @@
 import React from 'react'
 
-const UserForm = () => {
+export const Userform = () => {
+   
+
     return (
-        <div>
-            <form>
-                <input type ="text" name="username"/>
-                <button> Submit </button>
-            </form>
-        </div>
+        <form>
+            <input type="text" name="username"/>
+            <button>Submit</button>
+          
+        </form>
+       
     )
 }
-export default UserForm 
+export default Userform
